@@ -1,0 +1,49 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.list {
+    border: 20px solid black;
+    border-radius: 10px;
+    background-color: rgb(73, 172, 211);
+    border-color: lightsteelblue;
+    border
+}
+
+.flex-container>div {
+    float: left;
+    padding: 15px;
+}
+
+input[type=search],
+select {
+    color: black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+#taskbutton>div {
+    float: left;
+    width: 50%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
